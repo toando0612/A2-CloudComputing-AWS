@@ -1,23 +1,9 @@
 <?php
     // Start the session
     session_start();
-
-    define('DEFAULT_PAGE','about');
-
     require("lib/connect.php");
-    // cái này là ph[]ng thức get tr3n dường dẫn , xem nhé
-    //http://localhost/Project/?page=newsong biến page đó
-    if(isset($_GET['url'])){
-        //ví dụ như dường dẫn trên thì
-        //$p = newsong
-        $url = $_GET['url'];
-    }
-    else{
-        $url = DEFAULT_PAGE;
 
-    }
 ?>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -60,59 +46,14 @@
                 unset($_SESSION['message']['text']);
                 }
 
-            // phần này là switch case nhé ,
-                switch ($url) {
-
-                    case 'user':{
-                        if( !isset($_SESSION['user']) ){
-                            if($_GET['type'] == "login" && isset($_GET['type'])){
-                                //file login.php nằm trong thư mục page nek
-                                // để cái này gọi là cắt nhỏ html ra cho nó gọn dễ quản lí tại vài trang web sẽ có
-                                // nhiều bố cục giống nhau chỉ có phần nội dung là thay đôi xem nhé
-                                require("views/login.php");
-                            }
-                            else if ($_GET['type'] == "register" && isset($_GET['type'])) {
-
-                                require("views/register.php");
-                            }
-                            // else{
-                            //     header("location:index.php");
-                            // }
-                        }
-                        else if($_GET['type'] == "logout" && isset($_GET['type'])){
-                            if (isset($_SESSION['user'])){
-                                unset($_SESSION['user']);
-                                header("Location../?url=about");
-                            }
-
-                        }
-                        else{
-                            header("location:index.php");
-                        }
-                        break;
-                    }
-
-                    case 'list_words':{
-                        require("views/list_words.php");
-                        break;
-                    }
-                    case 'form_words':{
-                        require("views/form_words.php");
-                        break;
-                    }
-                    case 'about':{
-                        require("views/about.php");
-                        break;
-                    }
-
-
-                    default:
-                        require("views/about.php");
-                        break;
-                }
-
-
-                include ('layouts/footer.php');
+            define('DEFAULT_PAGE','about');
+            if(isset($_GET['url'])) {
+                $url = $_GET['url'];
+            } else {
+                $url = DEFAULT_PAGE;
+            }
+            include("views/$url.php");
+            include ('layouts/footer.php');
             ?>
 
 

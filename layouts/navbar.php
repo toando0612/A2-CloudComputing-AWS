@@ -8,15 +8,15 @@
             <li class="nav-item">
                 <?php
                 if ( isset($_SESSION['user']) && $_SESSION['user'] ){
-                    echo "<a class=\"nav-link\" href='?url=user&type=logout'><span class=\"glyphicon glyphicon-user\" style=\"font-size:15px\">".$_SESSION['user']['username']. "</span>Logout</a>";
+                    echo "<a class=\"nav-link\" href='views/logout.php'><span class=\"glyphicon glyphicon-user\" style=\"font-size:15px\">".$_SESSION['user']['username']. "</span>Logout</a>";
                 }
                 elseif (!isset($_SESSION['user']) && !$_SESSION['user'] )
                 {
-                    echo '<a class="nav-link" href="./?url=user&type=login">
+                    echo '<a class="nav-link" href="./?url=login">
                             <span class="glyphicon glyphicon-user" style="font-size:15px"/>
                             Login  </a></li>';
                     echo '<li class="nav-item">
-                            <a class="nav-link" href="./?url=user&type=register">  Register  </a>';
+                            <a class="nav-link" href="./?url=register">  Register  </a>';
 
                 }
                 ?>
