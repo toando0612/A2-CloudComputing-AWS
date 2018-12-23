@@ -11,5 +11,5 @@ _ I used AWS EC2 as a cloud services
 _ I used AWS RDS as a cloud storage
 _ I used Docker to testing locally and running on AWS
 
-+Link deployment: http://ec2-54-255-234-168.ap-southeast-1.compute.amazonaws.com/?url=list_words
++Link deployment: http://ec2-54-255-234-168.ap-southeast-1.compute.amazonaws.com/
 +My github: https://github.com/toando0612/A2-CloudComputing-AWS
