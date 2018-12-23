@@ -218,7 +218,7 @@
           <entry key="CSV" value="1" />
           <entry key="Dockerfile" value="2" />
           <entry key="PHP" value="38" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
@@ -227,6 +227,7 @@
           <entry key="Dockerfile" value="3" />
           <entry key="HTML" value="59" />
           <entry key="PHP" value="3196" />
+          <entry key="PLAIN_TEXT" value="454" />
         </counts>
       </usages-collector>
     </session>
@@ -266,8 +267,17 @@
             <state showInfoPanel="true" rowLines="3" />
           </provider>
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -277,18 +287,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
               <caret line="24" column="48" selection-start-line="24" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/connect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <marker date="1545570251970" expanded="true" signature="133:196" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -311,7 +309,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/navbar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -367,13 +365,11 @@
         <option value="$PROJECT_DIR$/views/form_lecturers.php" />
         <option value="$PROJECT_DIR$/layouts/footer.php" />
         <option value="$PROJECT_DIR$/views/about.php" />
-        <option value="$PROJECT_DIR$/Readme.txt" />
         <option value="$PROJECT_DIR$/actions/delete_lecturer.php" />
         <option value="$PROJECT_DIR$/actions/submit_lecturer.php" />
         <option value="$PROJECT_DIR$/views/list_lecturers.php" />
         <option value="$PROJECT_DIR$/views/list_bq_lecturers.php" />
         <option value="$PROJECT_DIR$/views/form_words.php" />
-        <option value="$PROJECT_DIR$/csv/words.csv" />
         <option value="$PROJECT_DIR$/app.yaml" />
         <option value="$PROJECT_DIR$/layouts/header.php" />
         <option value="$PROJECT_DIR$/style/css/style.css" />
@@ -391,6 +387,8 @@
         <option value="$PROJECT_DIR$/actions/submit_word.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/layouts/navbar.php" />
+        <option value="$PROJECT_DIR$/csv/words.csv" />
+        <option value="$PROJECT_DIR$/Readme.txt" />
       </list>
     </option>
   </component>
@@ -417,11 +415,6 @@
             <path>
               <item name="a2-cloudcomputing" type="b2602c69:ProjectViewProjectNode" />
               <item name="a2-cloudcomputing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="a2-cloudcomputing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2-cloudcomputing" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="a2-cloudcomputing" type="b2602c69:ProjectViewProjectNode" />
@@ -538,12 +531,12 @@
       <workItem from="1545199506763" duration="5757000" />
       <workItem from="1545453847342" duration="13452000" />
       <workItem from="1545534641318" duration="20463000" />
-      <workItem from="1545567278458" duration="8367000" />
+      <workItem from="1545567278458" duration="9008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123489000" />
+    <option name="totallyTimeSpent" value="124130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,8 +549,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -567,10 +561,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
-      <window_info active="true" anchor="bottom" id="Docker" order="7" visible="true" weight="0.25306123" />
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.25306123" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3989796" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3989796" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -622,13 +616,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/style/icons/logo.png" />
-    <entry file="file://$PROJECT_DIR$/Readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/list_bq_lecturers.php" />
     <entry file="file://$PROJECT_DIR$/views/about.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -723,17 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csv/words.csv">
-      <provider editor-type-id="text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -785,6 +761,24 @@
             <element signature="n#style#0;n#span#0;n#a#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/words.csv">
+      <provider editor-type-id="text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
